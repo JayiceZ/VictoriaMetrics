@@ -56,6 +56,7 @@ func main() {
 	// It is recommended increasing GOGC if go_memstats_gc_cpu_fraction metric exposed at /metrics page
 	// exceeds 0.05 for extended periods of time.
 	cgroup.SetGOGC(30)
+	//a
 
 	// Write flags and help message to stdout, since it is easier to grep or pipe.
 	flag.CommandLine.SetOutput(os.Stdout)
